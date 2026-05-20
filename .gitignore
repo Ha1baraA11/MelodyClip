@@ -1,0 +1,40 @@
+# Cloud and IDE config
+.cloud/
+.claude/
+
+# Memory Bank (local knowledge base)
+memory-bank/
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# macOS files
+.DS_Store
+
+# PyInstaller build directories and output
+build/
+dist/
+
+# FFmpeg binaries (large, platform-specific)
+ffmpeg/
+
+# Output videos (generated, large files)
+output/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Distribution
+*.egg-info/
+*.egg

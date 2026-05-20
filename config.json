@@ -1,0 +1,141 @@
+{
+  "intro_audio": "开头(不含橱窗引导).mp3",
+  "guide_audio": "",
+  "enable_guide": true,
+  "enable_guide_subtitles": false,
+  "outro_audio": "",
+  "enable_intro": true,
+  "enable_outro": true,
+  "enable_intro_subtitles": true,
+  "enable_outro_subtitles": true,
+  "bottom_center_text": "歌曲歌词，请勿过度解读",
+  "silence_gap": 0.3,
+  "fadeout_duration": 1.5,
+  "timeline_templates": {
+    "开头(含橱窗引导).mp3": [
+      {
+        "time": 0.5,
+        "text": "这首歌真的太好听了"
+      },
+      {
+        "time": 2.3,
+        "text": "我非常喜欢"
+      },
+      {
+        "time": 3.8,
+        "text": "瞬间勾起了多年的回忆"
+      },
+      {
+        "time": 5.8,
+        "text": "今天分享给你"
+      },
+      {
+        "time": 7.3,
+        "text": "不管你听没听过都可以停下来听一下"
+      },
+      {
+        "time": 9.5,
+        "text": "听歌之余还可以逛一逛我的主页橱窗"
+      },
+      {
+        "time": 11.3,
+        "text": "里面有好物分享"
+      }
+    ],
+    "开头(不含橱窗引导).mp3": [
+      {
+        "time": 0.5,
+        "text": "这首歌真的太好听了"
+      },
+      {
+        "time": 1.8,
+        "text": "我非常喜欢"
+      },
+      {
+        "time": 3.2,
+        "text": "瞬间勾起了多年的回忆"
+      },
+      {
+        "time": 6.0,
+        "text": "今天分享给你"
+      },
+      {
+        "time": 7.5,
+        "text": "不管你听没听过都可以停下来听一下"
+      }
+    ],
+    "结尾(含橱窗引导).mp3": [
+      {
+        "time": 0.5,
+        "text": "如果觉得歌曲还不错"
+      },
+      {
+        "time": 2.3,
+        "text": "可以点亮小红心"
+      },
+      {
+        "time": 3.8,
+        "text": "点开头像进主页橱窗"
+      },
+      {
+        "time": 5.8,
+        "text": "有能帮到你的好物分享"
+      }
+    ],
+    "引导语.mp3": [
+      {
+        "time": 0.5,
+        "text": "听歌之余"
+      },
+      {
+        "time": 1.8,
+        "text": "还可以逛一逛我的主页橱窗"
+      },
+      {
+        "time": 3.0,
+        "text": "里面有好物分享"
+      }
+    ]
+  },
+  "trim_mode": "fixed",
+  "trim_duration": 45,
+  "slice_interval": 45,
+  "manual_start": 0,
+  "manual_duration": 45,
+  "background_mode": "fixed",
+  "background_file": "/Users/zetazero/Downloads/Weixin Videos2026-05-20_022523_712.mp4",
+  "background_folder": "",
+  "background_select_strategy": "sequential",
+  "output_folder": "/Users/zetazero/Downloads/Auto-Video-Tool/output",
+  "output_filename_template": "歌曲分享_{song_name}",
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "bitrate": "4000k",
+  "top_text_template": "好歌分享",
+  "top_text_size": 72,
+  "top_text_font": "msyh.ttc",
+  "top_text_bold": true,
+  "top_text_color": "#000000",
+  "top_text_stroke_color": "#000000",
+  "top_text_stroke_width": 0,
+  "top_text_bg_color": "#FFD700",
+  "bottom_text": "歌曲分享，无不良引导",
+  "bottom_text_size": 36,
+  "bottom_text_font": "msyh.ttc",
+  "bottom_text_bold": false,
+  "bottom_text_color": "#FFFFFF",
+  "bottom_text_stroke_color": "#000000",
+  "bottom_text_stroke_width": 5,
+  "subtitle_size": 80,
+  "subtitle_font": "msyh.ttc",
+  "subtitle_bold": true,
+  "subtitle_color": "#FFD700",
+  "subtitle_stroke_color": "#000000",
+  "subtitle_stroke_width": 3,
+  "slide_in_duration": 0.3,
+  "max_subtitle_lines": 3,
+  "default_subtitles": []
+}
